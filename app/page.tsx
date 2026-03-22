@@ -584,8 +584,7 @@ export default function Home() {
                       <div style={{
                         fontSize: '13px', fontWeight: 600, color: '#c8d0e0',
                         textDecoration: rState.done ? 'line-through' : 'none',
-                        overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap',
-                      }}>
+                        }}>
                         {ride.name}
                       </div>
                       <div style={{ fontSize: '10px', color: '#334155', marginTop: '2px' }}>{ride.land}</div>
@@ -717,8 +716,7 @@ export default function Home() {
                                   <div style={{
                                     fontSize: '13px', color: '#c8d0e0', fontWeight: rState.priority ? 700 : 400,
                                     textDecoration: rState.done ? 'line-through' : 'none',
-                                    overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap',
-                                  }}>
+                                    }}>
                                     {ride.name}
                                   </div>
                                   <div style={{ fontSize: '10px', color: '#334155', marginTop: '1px' }}>{ride.land}</div>
